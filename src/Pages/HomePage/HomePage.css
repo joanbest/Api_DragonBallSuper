@@ -1,0 +1,19 @@
+
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); 
+    gap: 20px; 
+    padding: 20px;
+    justify-items: center; 
+    background: linear-gradient(90deg, #e1871f, #d0493a);
+}
+
+
+
+@media (max-width: 600px) {
+    #pagination {
+      flex-direction:row;
+      flex-wrap: nowrap;
+    }
+  }
