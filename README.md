@@ -1,12 +1,25 @@
-# React + Vite
+#Consumo de Api de Dragon Ball Super
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>
+La finalidad de este proyecto es desarrollar una aplicación Web para consumir la api de personajes de Dragon Ball Super, mostrando cada personaje en una tarjeta con sus datos,  tambien incorporar la tecnologia de react-router-dom para el manejo de las rutas, por medio de un menu para navegaar entre las opciones, aplicando un filtro (usando funciones de orden superior -filter) para filtrar por genero(masculino, femenino). 
+</p>
+## Herramientas utilizadas:
+- Visual studio code
+- React
+- Vite
+- Node js
+- Material ui
 
-Currently, two official plugins are available:
+## Paso para replicar proyecto
+- Instalación de React con vite
+Desde la terminal haciendo uso del gestor de paquetes **npm** se utiliza lo siguiente
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+  `npm create vite@latest`
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Determinar nombre del proyecto
+- Seleccionar el Framework React-sw javascript
+- Instalar las dependencias
+  Se debe instalar las dependencias con npm para la correcta funcionalidad ingresando a la ruta del proyecto `cd my-project` y luego agregar               `npm install`
+ <p>
+ Para utilizar iconos o componentes prediseñados se debe instalar con npm las utilidades de la libreria Material UI `npm install @mui/material @emotion/react @emotion/styled`
+ </p>
